@@ -1,8 +1,9 @@
 # textutil
 
-> 用于操作各种格式的文本文件.
+> 用于操作各种格式的文本文件。
+> 更多信息：<https://ss64.com/osx/textutil.html>.
 
-- 显示有关 `foo.rtf` 的信息:
+- 显示有关 `foo.rtf` 的信息：
 
 `textutil -info {{foo.rtf}}`
 
@@ -10,7 +11,7 @@
 
 `textutil -convert {{html}} {{foo.rtf}}`
 
-- 将带格式的 rtf 文本转换为普通 txt 文本:
+- 将带格式的 rtf 文本转换为普通 txt 文本：
 
 `textutil {{foo.rtf}} -convert {{txt}}`
 

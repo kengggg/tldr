@@ -1,6 +1,7 @@
 # rev
 
 > Kehre die Reihenfolge von Text um.
+> Weitere Informationen: <https://manned.org/rev>.
 
 - Kehre die Reihenfolge des Textes "Hallo" um:
 
@@ -8,4 +9,4 @@
 
 - Kehre die Reihenfolge einer Datei um:
 
-`rev {{datei}}`
+`rev {{pfad/zu/datei}}`

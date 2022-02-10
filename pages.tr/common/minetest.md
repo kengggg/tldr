@@ -2,15 +2,15 @@
 
 > Çok oyunculu sınırsız dünyalı bloklu sandbox oyun motoru.
 > Ayrıca `minetestserver` sayfasına bakılması önerilir.
-> Daha fazla bilgi için: <https://wiki.minetest.net/Minetest>.
+> Daha fazla bilgi: <https://wiki.minetest.net/Minetest>.
 
 - Minetest'i kullanıcı modunda başlat:
 
 `minetest`
 
-- Minetest'i sunucu modunda başlat:
+- Minetest'i belirtilen dünyayı host edecek şekilde sunucu modunda başlat:
 
-`minetest --server`
+`minetest --server --world {{isim}}`
 
 - Belirtilmiş bir dosyaya geçmişi yaz:
 

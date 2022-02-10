@@ -15,6 +15,14 @@
 
 `watson stop`
 
-- Display latest working sessions:
+- Display the latest working sessions:
 
 `watson log`
+
+- Edit most recent frame:
+
+`watson edit`
+
+- Remove most recent frame:
+
+`watson remove`
