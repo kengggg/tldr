@@ -1,24 +1,24 @@
 # halt
 
-> Halt the system.
-> More information: <https://manned.org/halt.8>.
+> หยุดการทำงานระบบ
+> ข้อมูลเพิ่มเติม: <https://manned.org/halt.8>.
 
-- Halt the system:
+- หยุดการทำงานระบบ:
 
 `halt`
 
-- Power off the system (same as `poweroff`):
+- ปิดระบบ (เหมือนกับ `poweroff`):
 
 `halt --poweroff`
 
-- Reboot the system (same as `reboot`):
+- เริ่มระบบใหม่ (เหมือนกับ `reboot`):
 
 `halt --reboot`
 
-- Halt immediately without contacting the system manager:
+- บังคับปิดระบบทันที:
 
 `halt --force`
 
-- Write the wtmp shutdown entry without halting the system:
+- เขียนบันทึก wtmp โดยไม่ต้องหยุดการทำงานของระบบ:
 
 `halt --wtmp-only`

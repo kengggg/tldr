@@ -1,20 +1,20 @@
 # free
 
-> Display amount of free and used memory in the system.
-> More information: <https://manned.org/free>.
+> แสดงจำนวนหน่วยความจำที่ใช้และเหลืออยู่ในระบบ
+> ข้อมูลเพิ่มเติม: <https://manned.org/free>.
 
-- Display system memory:
+- แสดงหน่วยความจำระบบ:
 
 `free`
 
-- Display memory in Bytes/KB/MB/GB:
+- แสดงหน่วยความจำเป็น Bytes/KB/MB/GB:
 
 `free -{{b|k|m|g}}`
 
-- Display memory in human-readable units:
+- แสดงหน่วยความจำในหน่วยที่มนุษย์อ่านรู้เรื่อง:
 
 `free -h`
 
-- Refresh the output every 2 seconds:
+- แสดงผลลัพธ์ใหม่ทุกๆ 2 วินาที:
 
 `free -s {{2}}`

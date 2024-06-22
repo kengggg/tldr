@@ -1,16 +1,16 @@
 # locate
 
-> Find filenames quickly.
-> More information: <https://manned.org/locate>.
+> หาชื่อไฟล์อย่างไว
+> ข้อมูลเพิ่มเติม: <https://manned.org/locate>.
 
-- Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):
+- หา pattern ในฐานข้อมูล หมายเหตุ: ฐานข้อมูลจะถูกเตรียมไว้อยู่แล้ว ปกติจะอัปเดททุกวันหรือทุกสัปดาห์:
 
 `locate {{pattern}}`
 
-- Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
+- หาไฟล์ที่ชื่อตรงกัน (pattern ที่ไม่มีอักขระ globbing จะถูกแปลเป็น `*pattern*`):
 
 `locate '*/{{filename}}'`
 
-- Recompute the database. You need to do it if you want to find recently added files:
+- อัปเดทฐานข้อมูลใหม่ คุณควรจะทำทุกครั้งเมื่อเพิ่มไฟล์ใหม่:
 
 `sudo updatedb`

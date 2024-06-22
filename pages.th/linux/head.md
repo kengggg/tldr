@@ -1,20 +1,20 @@
 # head
 
-> Output the first part of files.
-> More information: <https://www.gnu.org/software/coreutils/head>.
+> แสดงส่วนแรกของไฟล์
+> ข้อมูเพิ่มเติม: <https://www.gnu.org/software/coreutils/head>.
 
-- Output the first few lines of a file:
+- แสดงบรรทัดแรกๆ ของไฟล์:
 
 `head --lines {{count}} {{path/to/file}}`
 
-- Output the first few bytes of a file:
+- แสดงไบต์แรกๆ ของไฟล์:
 
 `head --bytes {{count}} {{path/to/file}}`
 
-- Output everything but the last few lines of a file:
+- แสดงทุกอย่างยกเว้นบรรทัดท้ายๆ ของไฟล์:
 
 `head --lines -{{count}} {{path/to/file}}`
 
-- Output everything but the last few bytes of a file:
+- แสดงทุกอย่างยกเว้นไบต์ท้ายๆ ของไฟล์:
 
 `head --bytes -{{count}} {{path/to/file}}`

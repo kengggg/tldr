@@ -1,28 +1,28 @@
 # iftop
 
-> Show bandwidth usage on an interface by host.
-> More information: <https://manned.org/iftop>.
+> แสดงการใช้งานแบนด์วิดท์ของโฮสท์ที่เกิดขึ้นบน interface
+> ข้อมูลเพิ่มเติม: <https://manned.org/iftop>.
 
-- Show the bandwidth usage:
+- แสดงแบนด์วิดท์ที่ใช้งาน:
 
 `sudo iftop`
 
-- Show the bandwidth usage of a given interface:
+- แสดงแบนด์วิดท์ที่ใช้งานบน interface ที่ระบุ:
 
 `sudo iftop -i {{interface}}`
 
-- Show the bandwidth usage with port information:
+- แสดงแบนด์วิดท์ที่ใช้รวมถึงข้อมูล port:
 
 `sudo iftop -P`
 
-- Do not show bar graphs of traffic:
+- ไม่ต้องแสดงกราฟแท่ง:
 
 `sudo iftop -b`
 
-- Do not look up hostnames:
+- ไม่ต้องมองหา hostnames:
 
 `sudo iftop -n`
 
-- Display help:
+- ขอความช่วยเหลือ:
 
 `?`

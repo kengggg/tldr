@@ -1,37 +1,37 @@
 # kill
 
-> Sends a signal to a process, usually related to stopping the process.
-> All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
-> More information: <https://manned.org/kill>.
+> ส่งสัญญาณไปยัง process โดยทั่วไปแล้วจะเกี่ยวข้องกับการหยุด process
+> Process จะตรวจจับทุกสัญญาณยกเว้น SIGKILL และ SIGSTOP เพื่อให้ process หยุดการทำงานอย่างเรียบร้อย
+> ข้อมูลเพิ่มเติม: <https://manned.org/kill>.
 
-- Terminate a program using the default SIGTERM (terminate) signal:
+- หยุดโปรแกรมโดยใช้สัญญาณ SIGTERM (terminate):
 
 `kill {{process_id}}`
 
-- List signal values and their corresponding names (to be used without the `SIG` prefix):
+- แสดงค่าและชื่อของสัญญาณโดยไม่ต้องมีคำว่า `SIG` นำหน้า:
 
 `kill {{-L|--table}}`
 
-- Terminate a background job:
+- หยุดงานที่อยู่เบื้องหลัง:
 
 `kill %{{job_id}}`
 
-- Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+- หยุดโปรแกรมโดยใช้สัญญาณ SIGHUP (hang up) หลายๆ โปรแกรมจะเริ่มทำงานตั้งแต่ต้นแทนที่จะหยุดทำงาน:
 
 `kill -{{1|HUP}} {{process_id}}`
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
+- หยุดโปรแกรมโดยใช้สัญญา SIGINT (interupt) ได้ผลเช่นเดียวกับผู้ใช้กดปุ่ม `Ctrl + C`:
 
 `kill -{{2|INT}} {{process_id}}`
 
-- Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
+- ส่งสัญญาณให้ระบบหยุดโปรแกรมโดยทันทีโดยไม่ต้องสนใจอะไร:
 
 `kill -{{9|KILL}} {{process_id}}`
 
-- Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
+- ส่งสัญญาณให้ระบบหยุดโปรแกรมชั่วคราว (pause) จนกว่าจะได้รับสัญญาณ SIGCONT (continue):
 
 `kill -{{17|STOP}} {{process_id}}`
 
-- Send a `SIGUSR1` signal to all processes with the given GID (group id):
+- ส่งสัญญาณ `SIGUSR` ไปยังทุก process ใน GID (group id):
 
 `kill -{{SIGUSR1}} -{{group_id}}`
