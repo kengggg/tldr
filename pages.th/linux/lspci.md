@@ -1,24 +1,24 @@
 # lspci
 
-> List all PCI devices.
-> More information: <https://manned.org/lspci>.
+> แสดงอุปกรณ์ PCI ทั้งหมด
+> ข้อมูลเพิ่มเติม: <https://manned.org/lspci>.
 
-- Show a brief list of devices:
+- แสดงรายการอุปกรณ์แบบย่อ:
 
 `lspci`
 
-- Display additional info:
+- แสดงข้อมูลเพิ่มเติม:
 
 `lspci -v`
 
-- Display drivers and modules handling each device:
+- แสดง driver และ module ที่เกี่ยวข้องกับอุปกรณ์:
 
 `lspci -k`
 
-- Show a specific device:
+- แสดงอุปกรณ์ที่กำหนด:
 
 `lspci -s {{00:18.3}}`
 
-- Dump info in a readable form:
+- แสดงข้อมูลในรูปแบบที่อ่านง่าย:
 
 `lspci -vm`

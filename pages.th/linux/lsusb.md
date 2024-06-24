@@ -1,24 +1,24 @@
 # lsusb
 
-> Display information about USB buses and devices connected to them.
-> More information: <https://manned.org/lsusb>.
+> แสดงข้อมูลทั้งหมดของ bus และอุปกรณ์ USB ทั้งหมดที่เชื่อมต่อกับระบบ
+> ข้อมูลเพิ่มเติม: <https://manned.org/lsusb>.
 
-- List all the USB devices available:
+- แสดงรายการอุปกรณ์ USB ทั้งหมดที่มี:
 
 `lsusb`
 
-- List the USB hierarchy as a tree:
+- แสดงรายการลำดับอุปกรณ์ USB ทั้งหมดเป็นแผนภูมิต้นไม้:
 
 `lsusb -t`
 
-- List verbose information about USB devices:
+- แสดงข้อมูลอุปกรณ์ USB แบบละเอียด:
 
 `lsusb --verbose`
 
-- List detailed information about a USB device:
+- แสดงข้อมูลของอุปกรณ์ USB ที่ระบุอย่างละเอียด:
 
 `lsusb --verbose -s {{bus}}:{{device number}}`
 
-- List devices with a specified vendor and product ID only:
+- แสดงอุปกรณ์ตาม vendor และ product ID ที่ระบุ:
 
 `lsusb -d {{vendor}}:{{product}}`

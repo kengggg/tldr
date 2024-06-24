@@ -1,16 +1,16 @@
 # lscpu
 
-> Display information about the CPU architecture.
-> More information: <https://manned.org/lscpu>.
+> แสดงข้อมูลเกี่ยวกับ CPU
+> ข้อมูลเพิ่มเติม: <https://manned.org/lscpu>.
 
-- Display information about all CPUs:
+- แสดงข้อมูลทุกอย่างของ CPUs:
 
 `lscpu`
 
-- Display information in a table:
+- แสดงข้อมูลในรูปแบบตาราง:
 
 `lscpu --extended`
 
-- Display only information about offline CPUs in a table:
+- แสดงข้อมูลเกี่ยวกับ CPUs ที่ไม่ได้เปิดใช้งานเท่านั้น:
 
 `lscpu --extended --offline`

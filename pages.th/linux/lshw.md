@@ -1,20 +1,20 @@
 # lshw
 
-> List detailed information about hardware configurations as root user.
-> More information: <https://manned.org/lshw>.
+> แสดงรายละเอียดเกี่ยวกับการตั้งค่า hardware
+> ข้อมูลเพิ่มเติม: <https://manned.org/lshw>.
 
-- Launch the GUI:
+- เปิดหน้าจอ GUI:
 
 `sudo lshw -X`
 
-- List all hardware in tabular format:
+- แสดง hardware ทั้งหมดในรูปแบบตาราง:
 
 `sudo lshw -short`
 
-- List all disks and storage controllers in tabular format:
+- แสดงดิสก์และ storage controller ทั้งหมดในรูปแบบตาราง:
 
 `sudo lshw -class disk -class storage -short`
 
-- Save all network interfaces to an HTML file:
+- บันทึกการตั้งค่า interfaces ทั้งหมดให้เป็นไฟล์ HTML:
 
 `sudo lshw -class network -html > {{interfaces.html}}`
