@@ -1,36 +1,36 @@
 # man
 
-> Format and display manual pages.
-> More information: <https://manned.org/man>.
+> จัดและแสดงคู่มือ
+> ข้อมูลเพิ่มเติม: <https://manned.org/man>.
 
-- Display the man page for a command:
+- แสดงคู่มือของคำสั่ง:
 
 `man {{command}}`
 
-- Open the man page for a command in a browser:
+- เปิดคู่มือในเว็บเบราเซอร์:
 
 `man --html {{command}}`
 
-- Display the man page for a command from section 7:
+- แสดงคู่มือของคำสั่งตั้งแต่ย่อหน้าที่ 7:
 
 `man {{7}} {{command}}`
 
-- List all available sections for a command:
+- แสดงทุกย่อหน้าของคำสั่ง:
 
 `man --whatis {{command}}`
 
-- Display the path searched for manpages:
+- แสดงเส่้นทางที่ค้นหาในคู่มือ:
 
 `man --path`
 
-- Display the location of a manpage rather than the manpage itself:
+- แสดงตำแหน่งของคู่มือ:
 
 `man --where {{command}}`
 
-- Display the man page using a specific locale:
+- แสดงคู่มือด้วยภาษา (locale) ที่กำหนด:
 
 `man --locale {{locale}} {{command}}`
 
-- Search for manpages containing a search string:
+- ค้นคู่มือด้วยคำค้นที่กำหนด:
 
 `man --apropos "{{search_string}}"`

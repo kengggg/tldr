@@ -1,24 +1,24 @@
 # reboot
 
-> Reboot the system.
-> More information: <https://manned.org/reboot.8>.
+> เริ่มระบบใหม่
+> ข้อมูลเพิ่มเติม: <https://manned.org/reboot.8>.
 
-- Reboot the system:
+- เริ่มระบบใหม่:
 
 `reboot`
 
-- Power off the system (same as `poweroff`):
+- ปิดระบบ (ทำงานเหมือน `poweroff`):
 
 `reboot --poweroff`
 
-- Halt (terminates all processes and shuts down the CPU) the system (same as `halt`):
+- หยุดระบบ (หยุดทุกโปรแกรมและปิด CPU ทำงานเหมือนกับ `halt`):
 
 `reboot --halt`
 
-- Reboot immediately without contacting the system manager:
+- บังคับเริ่มระบบใหม่ทันที:
 
 `reboot --force`
 
-- Write the wtmp shutdown entry without rebooting the system:
+- เขียนบันทึก wtmp โดยไม่ต้องเริ่มระบบใหม่:
 
 `reboot --wtmp-only`

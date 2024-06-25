@@ -1,16 +1,16 @@
 # pwd
 
-> Print name of current/working directory.
-> More information: <https://www.gnu.org/software/coreutils/pwd>.
+> แสดงชื่อไดเรกทอรีปัจจุบัน
+> ข้อมูลเพิ่มเติม
 
-- Print the current directory:
+- แสดงไดเรกทอรีปัจจุบัน:
 
 `pwd`
 
-- Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
+- แสดงไดเรกทอรีปัจจุบันรวมถึงแสดงลิงก์จริง (physical) ของลิงก์ย่อทุกอัน:
 
 `pwd --physical`
 
-- Print the current logical directory:
+- แสดงไดเรกทอรี logical ปัจจุบัน:
 
 `pwd --logical`
